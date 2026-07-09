@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/_index.md",
+                "file": "content/46-1Co/婦女閉口不言.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "婦女閉口不言"
             }
           }
         ]
@@ -208,8 +208,13 @@
   },
   "active": "2fa60ebf859e0078",
   "lastOpenFiles": [
-    "content/立祂名的居所.md",
+    "public/46-1co/婦女閉口不言/index.html",
+    "public/46-1co/婦女閉口不言",
     "content/_index.md",
+    "content/46-1Co/婦女閉口不言.md",
+    "content/立祂名的居所.md",
+    "public/en.search.min.08a333cd75ef293b84b4de66d7e6c9e70a8873d18a0b7993488299a8a093c1ce.js",
+    "public/en.search-data.min.32b18ae41037d1194892f2d21f515116e6486a3a547379e30593844ae0bd53e3.json",
     "content/Hyper-Grace.md",
     "public/hyper-grace/index.html",
     "public/hyper-grace",
@@ -220,9 +225,6 @@
     "public/hyper-grace-joseph-prince/index.html",
     "public/hyper-grace-joseph-prince",
     "layouts/_default/_markup/render-link.html",
-    "layouts/_default/_markup",
-    "layouts/_default",
-    "layouts/_defaults/_markup/render-link.html",
     "content/45-Rom/Rom-QA.md",
     "45-Rom/Rom-Notes.md",
     "content/README.md",
@@ -242,8 +244,6 @@
     "content/Tools/open-source.md",
     "content/Tools/Digital-Tools.md",
     "content/Tools/Biblography.md",
-    "content/Tools/_index.md",
-    "content/GDNTG/Chapter05.md",
     "content/GDNTG/GDNTG1.png",
     "static/images/語言金字塔.png",
     "static/images/Pasted image 20260106152338.png",

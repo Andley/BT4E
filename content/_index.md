@@ -21,8 +21,9 @@ bookCollapseSection: true
 	- [問答筆記](45-Rom/Rom-QA.md)
 	- [Hyper-Grace](Hyper-Grace.md)
 - 哥林多前書
-	- [綜覽](46-1Co/1Co-QA.md)
-	- [婦女閉口不言](46-1Co/1Co-QA#1Co%2014.md)
+	- [綜覽](46-1Co/婦女閉口不言.md)
+	- [婦女閉口不言](46-1Co/婦女閉口不言.md#1Co%2014.md)
+	- [[婦女]]
 
 test
 
