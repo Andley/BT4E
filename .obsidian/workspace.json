@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/GDNTG/Chapter04.md",
+                "file": "content/46-1Co/1Co-Overview.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Chapter04"
+              "title": "1Co-Overview"
+            }
+          },
+          {
+            "id": "b0cd22df4749b0cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/47-2Co/2Co-Overview.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2Co-Overview"
+            }
+          },
+          {
+            "id": "aca34f265edd6e6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/46-1Co/_index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "_index"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -171,8 +200,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           },
           {
@@ -203,11 +232,22 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
-      "find-n-replace:Find-n-Replace": false
+      "find-n-replace:Find-n-Replace": false,
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "809950d4d4f9414e",
+  "active": "aca34f265edd6e6d",
   "lastOpenFiles": [
+    "content/47-2Co/_index.md",
+    "public/47-2co/untitled/index.html",
+    "public/47-2co/untitled",
+    "content/47-2Co/2Co-Overview.md",
+    "content/46-1Co/_index.md",
+    "public/46-1co/untitled/index.html",
+    "public/46-1co/untitled",
+    "content/46-1Co/1Co-Overview.md",
+    "content/45-Rom/_index.md",
+    "content/45-Rom/Rom-Notes.md",
     "public/tools/ai-工具/index.html",
     "public/tools/ai-工具",
     "public/en.search.min.16e0275ca50f0e85a71b904d197b977282d63f87634bdd5b7ee97d049b75a2ea.js",
@@ -242,17 +282,6 @@
     "static/images/Pasted image 20260106082136.png",
     "static/images/Pasted image 20260106082129.png",
     "static/images",
-    "content/test.md",
-    "public/book.min.aa6df1af1a6e69aea65660ec36ca81b424bde5f0d3f016941d871fe52a70257e.css",
-    "public/book.min.e7ce94597b1460534245eae2496113f5309aa8c71d11ad208393a36f1de324f1.css",
-    "public/book.min.a472be228426626ce3e77d3936413243c1d55781f8c26c46575efe2e37c3d828.css",
-    "public/book.min.f14fca92d9473879b06771dd4dd66897205309eadea679c749acbe8e00cfdbc8.css",
-    "public/book.min.8c0c6243fdbc46db3c3b109f923f3de158b7789b51272565437084b6d63e0aae.css",
-    "content/Syntax/_index.md",
-    "content/Semantics/_index.md",
-    "content/Parables/_index.md",
-    "content/Memorize/_index.md",
-    "content/BG4E-ExpPreaching/_index.md",
-    "content/BBG4E/_index.md"
+    "content/test.md"
   ]
 }

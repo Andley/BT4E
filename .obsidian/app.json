@@ -7,9 +7,10 @@
   "showUnsupportedFiles": true,
   "newFileLocation": "current",
   "attachmentFolderPath": "./",
-  "defaultViewMode": "preview",
+  "defaultViewMode": "source",
   "readableLineLength": false,
   "strictLineBreaks": true,
   "propertiesInDocument": "source",
-  "tabSize": 4
+  "tabSize": 4,
+  "promptDelete": false
 }

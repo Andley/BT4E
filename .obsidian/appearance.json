@@ -1,7 +1,8 @@
 {
   "enabledCssSnippets": [
     "bg4e",
-    "bg4e2"
+    "bg4e2",
+    "bt4e"
   ],
   "baseFontSizeAction": false,
   "baseFontSize": 16,
