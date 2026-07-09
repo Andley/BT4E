@@ -1,0 +1,14 @@
+{
+  "enabledCssSnippets": [
+    "bg4e",
+    "bg4e2"
+  ],
+  "baseFontSizeAction": false,
+  "baseFontSize": 16,
+  "interfaceFontFamily": "Noto Sans TC",
+  "textFontFamily": "Noto Sans TC",
+  "monospaceFontFamily": "Courier New",
+  "theme": "obsidian",
+  "accentColor": "",
+  "showRibbon": false
+}

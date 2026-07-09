@@ -1,0 +1,15 @@
+{
+  "livePreview": false,
+  "showInlineTitle": false,
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./",
+  "defaultViewMode": "preview",
+  "readableLineLength": false,
+  "strictLineBreaks": true,
+  "propertiesInDocument": "source",
+  "tabSize": 4
+}

@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"4af02690d4592bfc","type":"text","text":"1:5–9","x":-110,"y":-340,"width":188,"height":60,"color":"3"},
+		{"id":"d670e704e7458f2d","type":"text","text":"1:10--16","x":-110,"y":-260,"width":188,"height":60,"color":"3"},
+		{"id":"c8d3e10aab1cfa6e","type":"text","text":"2:1-1","x":-16,"y":-180,"width":188,"height":60,"color":"3"},
+		{"id":"3e967268f34bb919","type":"text","text":"2:2-10","x":14,"y":-120,"width":188,"height":60,"color":"3"},
+		{"id":"d597cf84c7102253","type":"text","text":"2:11-14","x":14,"y":-60,"width":188,"height":60,"color":"3"},
+		{"id":"c5b3041e6d99803c","type":"text","text":"2:15","x":-16,"y":0,"width":188,"height":60,"color":"3"},
+		{"id":"dbe1d7245f66569f","x":-500,"y":-180,"width":350,"height":260,"type":"text","text":""}
+	],
+	"edges":[
+		{"id":"7c62eefdf8dde008","fromNode":"c8d3e10aab1cfa6e","fromSide":"left","toNode":"c5b3041e6d99803c","toSide":"left","fromEnd":"arrow","label":"首尾\n呼應"},
+		{"id":"c5fdc8d91d55d32f","fromNode":"d597cf84c7102253","fromSide":"left","toNode":"3e967268f34bb919","toSide":"left"}
+	]
+}

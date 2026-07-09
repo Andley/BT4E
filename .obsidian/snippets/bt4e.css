@@ -1,0 +1,211 @@
+@font-face {
+  font-family: 'AndleyFont';
+  unicode-range: U+0370-03FF, U+1F00-1FFF; /* Greek UNICODE */
+  src: local("Gentium Book Plus");
+  }
+@font-face {
+  font-family: 'AndleyFont';
+  unicode-range: U+0590-05FF, U+FB10-FB4F; /* Hebrew UNICODE */
+  src: local("Ezra SIL");
+  }
+
+/* 標題 */
+h1, .HyperMD-header-1 { text-decoration-line: underline; text-decoration-style: double;}
+h1, .HyperMD-header-1, h2, .HyperMD-header-2 { text-align: center; ;}
+h3, h4, h5, h6 { text-align: left; }
+h3, .HyperMD-header-3 {  text-indent: -1em; }
+h4, .HyperMD-header-4 {  text-indent: -0.5em; }
+h5, .HyperMD-header-5 {  text-indent: 0em; }
+h6, .HyperMD-header-6 {  text-indent: 0.5em; }
+
+
+html, body, p, li {
+  font-family: 'AndleyFont', "Noto Sans", "Noto Sans TC";
+  color: var(--text-color);
+  font-size: 1em;
+}
+
+/* === css for <ruby> Interlinear === */
+ruby {
+  font-size: 16px ; 
+  ruby-align:start;
+  padding: 0 3px 0 0;
+  font-family:  'AndleyFont', "Noto Sans ExtraCondensed", "未來熒黑";
+  line-height:75px;
+}
+
+rt {
+  font-size: 13px ; 
+  font-weight:normal;
+  padding: 0 3px 0 0;
+  font-family: 'AndleyFont', "Noto Sans ExtraCondensed", "未來熒黑" ;
+  white-space: nowrap;
+} 
+
+
+
+/* === css for <span> interlinear === */
+/* Container for each word */
+.w {
+  display: inline-grid;
+  grid-template-rows: auto auto auto auto;
+  margin: 0 0.1em 0.5em 0em;
+  font-family: 'AndleyFont', "Noto Sans ExtraCondensed", "未來熒黑";
+}
+/* surface text */
+.w .t {
+  font-size: 1em;
+  line-height:1em;
+  padding-bottom:0.2em;
+}
+/* lemma and link */
+.w .l, .w .g, .w .m  {
+  font-size: 0.85em;
+  line-height:0.85em;
+  padding-bottom:0.3em;
+}
+
+
+a {text-decoration: none; color: var(--text-link); }
+
+/* table */
+.markdown-preview-view table {
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid;
+  color: var(--text-color);
+  font-family: 'AndleyFont', "Noto Sans", "Noto Sans TC";
+} 
+
+.markdown-preview-view th {
+  border-bottom: 3px double;
+}
+
+.markdown-preview-view tr:nth-child(even) {
+      background-color: var(--background-secondary);
+}
+
+/* --------------------------------------------   */
+.verb { color: var(--color1); }
+.ptc  { color: var(--color2); }
+.inf  { color: var(--color3); }
+.punctuation { font-weight:bolder;}
+.poetry::before {content:'\a                 '; white-space: pre;}
+.paragraph::after {content:'\a          '; white-space: pre;}
+.tab::after {content:'    '; white-space: pre;}
+/* --------------------------------------------   */
+
+strong {
+  font-weight:900;
+}
+em{
+  font-weight: 400;
+}
+
+
+/* ============= Obsidian 介面 ================== */
+.theme-dark {
+  --text-tag: #4f8dc2;
+  --text-faint:lightgreen;
+  --text-link:lightgreen;
+  --text-color: #ffffff;
+  --divider-color: greenyellow;
+  --text-muted: #E6E6E6;
+  --color1:#ea4335;
+  --color2:#4285f4;
+  --color3:#34a853;
+  --color4:#ff8a00;
+  --color-strong: greenyellow;
+  --color-em:gold;
+  --text-accent:lightgreen;
+  --control-character-color: silver;
+  --collapse-icon-color-collapsed: lightgreen;
+  --color-base-40: silver;
+  --font-text: 'AndleyFont', "Noto Sans";
+  --table-cell-vertical-alignment: middle;
+  --table-border-color: silver;
+  }
+
+.theme-light {
+  --text-tag: darkblue;
+  --text-faint:gray;
+  --text-link:#09628f;
+  --text-color:black;
+  --ribbon-color :rgb(223, 219, 219);
+  --text-normal:black;
+  --background-primary: white;
+  --color1:red;
+  --color2:blue;
+  --color3:green;
+  --color4:orange;
+  --color-strong: red;
+  --color-em:blue;
+  --link-color:rgb(128, 136, 240);
+  --link-external-color:rgb(128, 136, 240);
+  --color-base-40: darkblue;
+  --font-text: 'AndleyFont', "Noto Sans";
+  --table-cell-vertical-alignment: middle;
+  --table-border-color: gray;
+}
+
+/* HTML tags in preview and editor */
+.cm-tag, .cm-attribute, .cm-string {
+  color: var(--text-tag);
+  font-family: "Noto Sans ExtraCondensed";
+  font-size:11px;
+}
+
+
+
+
+
+
+/* 外層容器：讓單字由左至右排列，超出寬度自動換行 */
+  .interlinear-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* 單字之間的間距 */
+    font-family: sans-serif;
+    line-height: 1.4;
+    padding: 10px;
+    background-color: #f9f9f9; /* 背景色，可自行調整 */
+    border-radius: 8px;
+  }
+
+  /* 單字卡：每個單字的垂直堆疊 */
+  .word-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 內容置中 */
+    padding: 5px;
+    border: 1px solid #e0e0e0; /* 每個單字的邊框，可拿掉 */
+    background: #fff;
+    min-width: 60px; /* 最小寬度 */
+  }
+
+  /* 第一行：原文 (加大加粗) */
+  .line-og {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #2c3e50;
+  }
+  
+  /* 第二行：音譯 (斜體) */
+  .line-tr {
+    font-style: italic;
+    font-size: 0.9em;
+    color: #7f8c8d;
+  }
+
+  /* 第三行：文法 (縮小字體) */
+  .line-gr {
+    font-size: 0.75em;
+    color: #e67e22; /* 橘色標示文法 */
+  }
+
+  /* 第四行：翻譯 (中文) */
+  .line-zh {
+    font-weight: 500;
+    color: #27ae60; /* 綠色標示翻譯 */
+    margin-top: 2px;
+  }

@@ -1,0 +1,17 @@
+baseURL = 'https://andley.github.io/BT4E/'
+locale = 'zh-TW'
+title = '全民聖經神學 BT4E'
+theme = "book"
+
+[params]
+  # 預設是 "docs"，改為 "*" 代表直接讀取 content 根目錄下的所有 Markdown
+  BookSection = "*"
+  # 將選單模式設定為 filetree (預設為此模式，但建議顯式指定)
+  BookMenuBundle = false
+  # 開啟選單折疊功能
+  BookCollapseSection = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

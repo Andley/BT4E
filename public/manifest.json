@@ -1,0 +1,15 @@
+{
+  "name": "全民聖經神學 BT4E",
+  "short_name": "全民聖經神學 BT4E",
+  "start_url": "/BT4E/",
+  "scope": "/BT4E/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/BT4E/favicon.svg",
+      "sizes": "512x512"
+    }
+  ]
+}
