@@ -8,7 +8,7 @@
   "baseFontSize": 16,
   "interfaceFontFamily": "Noto Sans TC",
   "textFontFamily": "Noto Sans TC",
-  "monospaceFontFamily": "Courier New",
+  "monospaceFontFamily": "Cascadia Mono",
   "theme": "obsidian",
   "accentColor": "",
   "showRibbon": false

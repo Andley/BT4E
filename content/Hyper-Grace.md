@@ -1,5 +1,5 @@
 ---
-title: "Hyper-Grace 平約瑟 Joseph Prince"
+title: "Hyper-Grace Joseph Prince"
 ---
 傳統福音派與改革宗等傳統教會，針對平約瑟牧師（Joseph Prince）所倡導的「極端恩典福音（Hyper-Grace）」提出了相當嚴厲的神學審視。傳統教會認為，平約瑟的教導在許多核心經文上採取了「斷章取義」、「過度二分法」與「心理投射」的解經手段，嚴重偏離了歷代教會承襲的信仰準則。 [1, 2, 3, 4, 5, 6]
 

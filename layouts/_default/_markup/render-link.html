@@ -1,0 +1,18 @@
+{{- $link := .Destination -}}
+{{- $isExternal := strings.HasPrefix $link "http" -}}
+
+{{- if not $isExternal -}}
+  {{- /* 1. 拔掉 .md 結尾 */ -}}
+  {{- $link = strings.TrimSuffix ".md" $link -}}
+  
+  {{- /* 2. 暴力降小寫開頭：直接將整個網址字串中的 "Hyper-Grace" 變成 "hyper-grace" */ -}}
+  {{- /* 不去切字串、不去還原空格，Obsidian 丟出 %20 就讓它維持 %20 */ -}}
+  {{- if strings.HasPrefix $link "Hyper-Grace" -}}
+    {{- $link = replace $link "Hyper-Grace" "hyper-grace" -}}
+  {{- end -}}
+  
+  {{- /* 3. 補上結尾斜線，並加上 /BT4E/ 的根目錄前綴 */ -}}
+  {{- $link = relURL (printf "%s/" $link) -}}
+{{- end -}}
+
+<a href="{{ $link | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $isExternal }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Text | safeHTML }}</a>
