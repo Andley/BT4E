@@ -11,5 +11,6 @@
   "monospaceFontFamily": "Cascadia Mono",
   "theme": "obsidian",
   "accentColor": "",
-  "showRibbon": false
+  "showRibbon": false,
+  "cssTheme": ""
 }

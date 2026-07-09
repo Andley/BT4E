@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "facb90515b9aad4a",
+        "id": "7fa5f852673a35bb",
         "type": "tabs",
         "children": [
           {
-            "id": "2fa60ebf859e0078",
+            "id": "918cbb1664a4179a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/_index.md",
+                "file": "content/「七日的第一日」是哪一天？.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "「七日的第一日」是哪一天？"
             }
           }
         ]
@@ -206,10 +206,16 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "2fa60ebf859e0078",
+  "active": "918cbb1664a4179a",
   "lastOpenFiles": [
-    "content/46-1Co/婦女閉口不言.md",
+    "content/《約翰一書》大綱.md",
+    "content/「七日的第一日」是哪一天？.md",
     "content/_index.md",
+    "content/47-2Co/_index.md",
+    "content/46-1Co/婦女閉口不言.md",
+    "content/46-1Co/1Co-Overview.md",
+    "content/46-1Co/_index.md",
+    "content/Hyper-Grace.md",
     "content/婦女閉口不言.md",
     "public/婦女閉口不言/index.html",
     "public/婦女閉口不言",
@@ -218,18 +224,14 @@
     "content/立祂名的居所.md",
     "public/en.search.min.08a333cd75ef293b84b4de66d7e6c9e70a8873d18a0b7993488299a8a093c1ce.js",
     "public/en.search-data.min.32b18ae41037d1194892f2d21f515116e6486a3a547379e30593844ae0bd53e3.json",
-    "content/Hyper-Grace.md",
     "public/hyper-grace/index.html",
     "public/hyper-grace",
     "public/en.search.min.288cf75103a484820e8097eacebe8d6e1175cb2efe21cae3df72bd8d1999d49f.js",
     "public/en.search-data.min.52a7d986ccd55a0f401fe31d7dc15f9ca5ce0d38edfe3ea2fbd09d6dcafb0e61.json",
     "content/47-2Co/2Co-Overview.md",
-    "content/46-1Co/1Co-Overview.md",
     "content/45-Rom/Rom-QA.md",
     "45-Rom/Rom-Notes.md",
     "content/README.md",
-    "content/46-1Co/_index.md",
-    "content/47-2Co/_index.md",
     "content/45-Rom/_index.md",
     "content/45-Rom/Rom-Notes.md",
     "content/GDNTG/Chapter06.md",
@@ -242,7 +244,6 @@
     "content/Tools/UNICODE.md",
     "content/Tools/Phrasing-Signs.md",
     "content/Tools/open-source.md",
-    "content/Tools/Digital-Tools.md",
     "content/GDNTG/GDNTG1.png",
     "static/images/語言金字塔.png",
     "static/images/Pasted image 20260106152338.png",
