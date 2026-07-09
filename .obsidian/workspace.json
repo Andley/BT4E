@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/46-1Co/婦女閉口不言.md",
+                "file": "content/_index.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "婦女閉口不言"
+              "title": "_index"
             }
           }
         ]
@@ -208,10 +208,13 @@
   },
   "active": "2fa60ebf859e0078",
   "lastOpenFiles": [
+    "content/46-1Co/婦女閉口不言.md",
+    "public/婦女閉口不言/index.html",
+    "public/婦女閉口不言",
+    "content/婦女閉口不言.md",
+    "content/_index.md",
     "public/46-1co/婦女閉口不言/index.html",
     "public/46-1co/婦女閉口不言",
-    "content/_index.md",
-    "content/46-1Co/婦女閉口不言.md",
     "content/立祂名的居所.md",
     "public/en.search.min.08a333cd75ef293b84b4de66d7e6c9e70a8873d18a0b7993488299a8a093c1ce.js",
     "public/en.search-data.min.32b18ae41037d1194892f2d21f515116e6486a3a547379e30593844ae0bd53e3.json",
@@ -222,9 +225,6 @@
     "public/en.search-data.min.52a7d986ccd55a0f401fe31d7dc15f9ca5ce0d38edfe3ea2fbd09d6dcafb0e61.json",
     "content/47-2Co/2Co-Overview.md",
     "content/46-1Co/1Co-Overview.md",
-    "public/hyper-grace-joseph-prince/index.html",
-    "public/hyper-grace-joseph-prince",
-    "layouts/_default/_markup/render-link.html",
     "content/45-Rom/Rom-QA.md",
     "45-Rom/Rom-Notes.md",
     "content/README.md",
@@ -243,7 +243,6 @@
     "content/Tools/Phrasing-Signs.md",
     "content/Tools/open-source.md",
     "content/Tools/Digital-Tools.md",
-    "content/Tools/Biblography.md",
     "content/GDNTG/GDNTG1.png",
     "static/images/語言金字塔.png",
     "static/images/Pasted image 20260106152338.png",
